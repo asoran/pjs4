@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJS4", "Assembly-CSharp-firstpass.csproj", "{31E976C0-939A-E656-912E-6DD3CAC28D61}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJS4", "Assembly-CSharp.csproj", "{4C579216-BD3F-3DF2-AEC6-24C698F6F9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJS4", "Assembly-CSharp-Editor-firstpass.csproj", "{443DC3DE-FA2A-A12F-FFED-2A53947CBFCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31E976C0-939A-E656-912E-6DD3CAC28D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E976C0-939A-E656-912E-6DD3CAC28D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E976C0-939A-E656-912E-6DD3CAC28D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E976C0-939A-E656-912E-6DD3CAC28D61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C579216-BD3F-3DF2-AEC6-24C698F6F9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C579216-BD3F-3DF2-AEC6-24C698F6F9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C579216-BD3F-3DF2-AEC6-24C698F6F9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C579216-BD3F-3DF2-AEC6-24C698F6F9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443DC3DE-FA2A-A12F-FFED-2A53947CBFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443DC3DE-FA2A-A12F-FFED-2A53947CBFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443DC3DE-FA2A-A12F-FFED-2A53947CBFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443DC3DE-FA2A-A12F-FFED-2A53947CBFCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

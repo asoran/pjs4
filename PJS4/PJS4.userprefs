@@ -2,13 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PJS4 Asset/Script/PlayerController.cs">
     <Files>
-      <File FileName="Assets/PJS4 Asset/Script/fantome.cs" Line="36" Column="26" />
-      <File FileName="Assets/PJS4 Asset/Script/FollowCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets/PJS4 Asset/Script/PlayerController.cs" Line="134" Column="4" />
-      <File FileName="Assets/PJS4 Asset/Script/DrawCircle.cs" Line="1" Column="1" />
-      <File FileName="Assets/PJS4 Asset/Script/drawLine.cs" Line="1" Column="1" />
       <File FileName="Assets/PJS4 Asset/Script/blink.cs" Line="1" Column="1" />
-      <File FileName="Assets/sticky.cs" Line="9" Column="3" />
+      <File FileName="Assets/destroyOn.cs" Line="1" Column="1" />
+      <File FileName="Assets/JUSTICE.cs" Line="1" Column="1" />
+      <File FileName="Assets/PJS4 Asset/Script/PlayerController.cs" Line="49" Column="10" />
+      <File FileName="Assets/Timer.cs" Line="21" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

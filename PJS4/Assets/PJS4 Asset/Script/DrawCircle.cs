@@ -6,9 +6,9 @@ public class DrawCircle : MonoBehaviour
 {
     [Range(0, 50)]
     public int segments = 50;
-    [Range(0, 5)]
+    [Range(0, 10)]
     public float xradius;
-    [Range(0, 5)]
+    [Range(0, 10)]
     public float yradius;
     private LineRenderer line;
 
@@ -21,7 +21,7 @@ public class DrawCircle : MonoBehaviour
         line = GetComponent<LineRenderer>();
 
         //line.SetVertexCount(segments + 1);
-		line.positionCount = segments + 1;
+        line.positionCount = segments + 1;
         line.useWorldSpace = false;
         CreatePoints();
     }
@@ -63,8 +63,7 @@ public class DrawCircle : MonoBehaviour
         {
             x = Mathf.Sin(Mathf.Deg2Rad * angle) * xradius;
             y = Mathf.Cos(Mathf.Deg2Rad * angle) * yradius;
-			line.startColor = Color.green;
-			line.endColor = Color.green;
+
             line.SetPosition(i, new Vector3(x, y, 0));
 
             angle += (360f / segments);

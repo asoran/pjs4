@@ -19,21 +19,21 @@ public class fantome : MonoBehaviour {
 	}
 
 	public void OnCollisionEnter2D(Collision2D other){
-		StartCoroutine (Exemple ());
+		StartCoroutine (disp ());
 	}
 
-	IEnumerator Exemple()
+	IEnumerator disp()
 	{
 		yield return new WaitForSeconds(2);
-		s.enabled = !s.enabled; //NANI ???
-		b.enabled = !b.enabled;
-		StartCoroutine(Ex2());
+		s.enabled = false; //NANI ???
+		b.enabled = false;
+		StartCoroutine(apparait());
 	}
 
-	IEnumerator Ex2(){
+	IEnumerator apparait(){
 		yield return new WaitForSeconds(10);
-		s.enabled = !s.enabled; //NANI ???
-		b.enabled = !b.enabled;
+		s.enabled = true; //NANI ???
+		b.enabled = true;
 	}
 
 }
